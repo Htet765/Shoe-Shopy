@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOE SHOPY</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="icon" href="./image/shop_2.png">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500&family=Montserrat:ital,wght@0,400;1,200;1,300&family=Oswald:wght@200;300;400;500&display=swap" rel="stylesheet">    <style>
+      body{
+        font-family: 'Edu NSW ACT Foundation', cursive;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        background-color:#F4F5FA ;
+        font-size: 20px;
+      }
+     
+    </style>
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-md  w-100  mb-5 mt-3 justify-content-center" style="z-index:1000;" aria-label="Eighth navbar example">
+        <div class="container  position-fixed  bg-light  mt-5 mb-5 p-3">
+          <a class="navbar-brand text-success " href="#">
+            <i class="fa-solid fa-shop me-2"></i>SHOE SHOPY</a>
+          <button class="navbar-toggler btn  btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse " id="navbarsExample07">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active text-success" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-success opacity-75" href="#">About us</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-success opacity-75" href="#" data-bs-toggle="dropdown" aria-expanded="false">Setting</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-success opacity-75" href="#">Service</a></li>
+                  <li><a class="dropdown-item text-success opacity-75" href="#">Menu</a></li>
+                  <li><a class="dropdown-item text-success opacity-75" href="#">Contact us</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-outline-success rounded-3 px-lg-4">Login</button>
+
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container my-5">
+        <div class="row justify-content-center align-items-center my-5 " style="min-height:0vh ;">
+          <div class="col-lg-5 text-center">
+            <h1>This is heading</h1>
+            <p class="text-black-50 my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, nulla officiis? Reprehenderit vero distinctio illo ducimus dolore laborum iste nihil?</p>
+            <button class="btn btn-outline-success shadow-sm mb-5">See more</button>
+
+
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-6">
+            <img src="./image/pexels-melvin-buezo-2529148.jpg" class=" w-100   " >
+          </div>
+        </div>
+        <!-- <hr class="featurette-divider"> -->
+      </div>
+      <div class="pd"></div>
+      <div class="container  my-5">
+        <div class="row align-items-center my-5">
+          <div class="col-lg-5 ">
+            <img src="./image/pexels-ray-piedra-1456731.jpg" class=" w-100  ">
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-6 text-center">
+            <h1>This is second heading</h1>
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, nulla officiis? Reprehenderit vero distinctio illo ducimus dolore laborum iste nihil?</p>
+            <button class="btn btn-outline-success">See more</button>
+
+
+          </div>
+        </div>
+        <!-- <hr class="featurette-divider"> -->
+
+      </div>
+      <div class="pd">
+
+      </div>
+      <div class="container">
+        <div class="row  my-5">
+          <div class="col-lg-12">
+            <div class="feature-tab">
+              <nav>
+                <div class="nav justify-content-center nav-tabs my-5 " id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><h2 class="text-success">Nike</h2></button>
+                  <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><h2 class=" text-success">All Star</h2></button>
+                  <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><h2 class=" text-success">Adidas</h2></button>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-lg-5">
+                      <img src="./image/pexels-ray-piedra-1456706.jpg" class=" w-100" alt="">
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-6">
+                      <h1 class="py">This is heading</h1>
+                      <p class=" text-black-50 pb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, ipsam.</p>
+                      <a href="#" class="btn btn-outline-success">More Info</a>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-lg-5">
+                      <img src="./image/pexels-pixabay-267278.jpg" class=" w-100" alt="">
+
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-6">
+                      <h1 class="py">This is heading</h1>
+                      <p class=" text-black-50 pb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, ipsam.</p>
+                      <a href="#" class="btn btn-outline-success">More Info</a>
+                      
+
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+                  <div class="row">
+                    <div class="col-lg-5">
+                      <img src="./image/pexels-ray-piedra-1456733.jpg" class=" w-100" alt="">
+
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-6">
+                      <h1 class="py">This is heading</h1>
+                      <p class=" text-black-50 pb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, ipsam.</p>
+                      <a href="#" class="btn btn-outline-success">More Info</a>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+      <div class="pd">
+
+      </div>
+      <div class="container my-5">
+        <div class="row py-5 justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2>
+              This is Shop
+            </h2>
+            <p class=" text-black-50 py">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus inventore tempore repellendus rem non! In quibusdam soluta, obcaecati quaerat reprehenderit consequatur perspiciatis fugiat, minus mollitia quia sunt voluptatem, magnam corrupti!</p>
+            <button class="btn btn-outline-success">Shop Now</button>
+
+          </div>
+        </div>
+      </div>
+      <div class="container my-5 ">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 my-5  g-lg-5 shop ">
+          <div class="col air ">
+            <div class="card shadow mb-5">
+              <img src="./img/air jordan 1.jpg" alt="" class="card-img-top w-100 h-100 img-fluid img">
+              <button class="shop-button btn btn-outline-success rounded-circle"><i class="fas fa-solid fa-cart-shopping"></i></button>
+              <h3 class="card-title ms-3">Air Jordan 1</h3>
+              <div class="card-body">
+                <div class="text-warning mb-3 text-end">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+              </div>
+                <div class="card-text text-dark text-opacity-75">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed hic laborum sunt nisi asperiores officia quo amet sapiente maxime aut, tempore velit, ratione illum praesentium voluptate qui vel odio quod ex dolor? Quia consequuntur dicta dignissimos sint ratione voluptatem corrupti.</p>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col air">
+            <div class="card shadow mb-5">
+              <img src="./img/air force 1 edition.jpg" alt="" class="card-img-top w-100 h-100 img-fluid img">
+              <button class="shop-button btn btn-outline-success rounded-circle"><i class="fas fa-solid fa-cart-shopping"></i></button>
+              <h3 class="card-title ms-3">Air Force 1</h3>
+              <div class="card-body">
+                <div class="text-warning mb-3 text-end">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+              </div>
+                <div class="card-text text-dark text-opacity-75">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed hic laborum sunt nisi asperiores officia quo amet sapiente maxime aut, tempore velit, ratione illum praesentium voluptate qui vel odio quod ex dolor? Quia consequuntur dicta dignissimos sint ratione voluptatem corrupti.</p>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col air">
+            <div class="card shadow mb-5">
+              <img src="./img/jordan 4.jpg" alt="" class="card-img-top w-100 h-100 img-fluid img">
+              <button class="shop-button btn btn-outline-success rounded-circle"><i class="fas fa-solid fa-cart-shopping"></i></button>
+              <h3 class="card-title ms-3">Jordan 4</h3>
+              <div class="card-body">
+                <div class="text-warning mb-3 text-end">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+              </div>
+                <div class="card-text text-dark text-opacity-75">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed hic laborum sunt nisi asperiores officia quo amet sapiente maxime aut, tempore velit, ratione illum praesentium voluptate qui vel odio quod ex dolor? Quia consequuntur dicta dignissimos sint ratione voluptatem corrupti.</p>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col air">
+            <div class="card shadow mb-5">
+              <img src="./img/yeezy 350 v2.jpg" alt="" class="card-img-top w-100 h-100 img-fluid img">
+              <button class="shop-button btn btn-outline-success rounded-circle"><i class="fas fa-solid fa-cart-shopping"></i></button>
+              <h3 class="card-title ms-3">Yeezy 350 V2</h3>
+              <div class="card-body">
+                <div class="text-warning mb-3 text-end">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+              </div>
+                <div class="card-text text-dark text-opacity-75">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed hic laborum sunt nisi asperiores officia quo amet sapiente maxime aut, tempore velit, ratione illum praesentium voluptate qui vel odio quod ex dolor? Quia consequuntur dicta dignissimos sint ratione voluptatem corrupti.</p>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col air">
+            <div class="card shadow mb-5">
+              <img src="./img/yeezy 700.jpg" alt="" class="card-img-top w-100 h-100 img-fluid img">
+              <button class="shop-button btn btn-outline-success rounded-circle"><i class="fas fa-solid fa-cart-shopping"></i></button>
+              <h3 class="card-title ms-3">Yeezy 700</h3>
+              <div class="card-body">
+                <div class="text-warning mb-3 text-end">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+              </div>
+                <div class="card-text text-dark text-opacity-75">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed hic laborum sunt nisi asperiores officia quo amet sapiente maxime aut, tempore velit, ratione illum praesentium voluptate qui vel odio quod ex dolor? Quia consequuntur dicta dignissimos sint ratione voluptatem corrupti.</p>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col air">
+            <div class="card shadow mb-5">
+              <img src="./img/Yeezy snicker.jpg" alt="" class="card-img-top w-100 h-100 img-fluid img">
+              <button class="shop-button btn btn-outline-success rounded-circle"><i class="fas fa-solid fa-cart-shopping"></i></button>
+              <h3 class="card-title ms-3">Yeezy</h3>
+              <div class="card-body">
+                <div class="text-warning mb-3 text-end">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+              </div>
+                <div class="card-text text-dark text-opacity-75">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed hic laborum sunt nisi asperiores officia quo amet sapiente maxime aut, tempore velit, ratione illum praesentium voluptate qui vel odio quod ex dolor? Quia consequuntur dicta dignissimos sint ratione voluptatem corrupti.</p>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col air">
+            <div class="card shadow mb-5">
+              <img src="./img/yeezy 500.jpg" alt="" class="card-img-top w-100 h-100 img-fluid img">
+              <button class="shop-button btn btn-outline-success rounded-circle"><i class="fas fa-solid fa-cart-shopping"></i></button>
+              <h3 class="card-title ms-3">Air Jordan 1</h3>
+              <div class="card-body">
+                <div class="text-warning mb-3 text-end">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+              </div>
+                <div class="card-text text-dark text-opacity-75">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed hic laborum sunt nisi asperiores officia quo amet sapiente maxime aut, tempore velit, ratione illum praesentium voluptate qui vel odio quod ex dolor? Quia consequuntur dicta dignissimos sint ratione voluptatem corrupti.</p>
+
+                </div>
+              </div>
+
+            </div>
+            
+
+          </div>
+          <div class="col air">
+            <div class="card shadow mb-5" >
+              <img src="./img/Air Jordan 5.jpg" alt="" class="card-img-top w-100 h-100 img-fluid img">
+              <button class="shop-button btn btn-outline-success rounded-circle"><i class="fas fa-solid fa-cart-shopping"></i></button>
+              <h3 class="card-title ms-3">Air Jordan 5</h3>
+              <div class="card-body">
+                <div class="text-warning mb-3 text-end">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+              </div>
+                <div class="card-text text-dark text-opacity-75">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed hic laborum sunt nisi asperiores officia quo amet sapiente maxime aut, tempore velit, ratione illum praesentium voluptate qui vel odio quod ex dolor? Quia consequuntur dicta dignissimos sint ratione voluptatem corrupti.</p>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col air">
+            <div class="card shadow mb-5">
+              <img src="./img/Utra boost triple.jpg" alt="" class="card-img-top w-100 h-100 img-fluid img">
+              <button class="shop-button btn btn-outline-success rounded-circle"><i class="fas fa-solid fa-cart-shopping"></i></button>
+              <h3 class="card-title ms-3">Utra Boost Triple</h3>
+              <div class="card-body">
+                <div class="text-warning mb-3 text-end">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+              </div>
+                <div class="card-text text-dark text-opacity-75">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed hic laborum sunt nisi asperiores officia quo amet sapiente maxime aut, tempore velit, ratione illum praesentium voluptate qui vel odio quod ex dolor? Quia consequuntur dicta dignissimos sint ratione voluptatem corrupti.</p>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div><button class="btn btn-outline-success d-block mx-auto py-3">See More</button></div>
+      <div class="container-fluid">
+        <div class="row justify-content-center bg-primary mt-5 text-center">
+          <div class="col-lg-6">
+            <p class=" my-5  font-monospace">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, adipisci.</p>
+            <h1>This is Heading</h1>
+            <form role="search" class="">
+             
+              <input class="form-control w-50 d-inline-block  my-5" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success mb-1 ">Contact us</button>
+            </form>
+            
+
+          </div>
+        </div>
+      </div>
+     <footer>
+       <div class="container-fluid">
+        <div class="row bg-danger py-3">
+          <div class="col-lg-2">
+            <a href="#" class=" text-decoration-none"><h1 class="text-white text-center text-lg-start my-5">SHOE SHOPY</h1></a>
+
+          </div>
+          <div class="col-lg-6">
+              <div class=" pt-lg-5">
+                <a href="#" class=" text-decoration-none text-white-50 mx-lg-3 d-block d-lg-inline text-center text-lg-start py-3">Features</a>
+              <a href="#" class=" text-decoration-none text-white-50 mx-lg-3 d-block d-lg-inline text-center text-lg-start py-3">Pricing</a>
+              <a href="#" class=" text-decoration-none text-white-50 mx-lg-3 d-block d-lg-inline text-center text-lg-start py-3">Contact</a>
+
+              </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="text-lg-end text-center text-white h3 me-lg-5 pt-lg-5">
+              <i class=" fa-brands fa-facebook-f me-5"></i>
+              <i class=" fa-brands fa-instagram "></i>
+            </div>
+          </div>
+        </div>
+       </div>
+     </footer>
+      
+    </main>
+      
+</body>
+</html>

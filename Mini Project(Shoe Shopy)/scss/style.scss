@@ -1,0 +1,45 @@
+$navbar-padding-y: 1.5rem;
+$navbar-nav-link-padding-x: 1.5rem;
+//  $btn-padding-y:1rem;
+$btn-padding-x:1.7rem;
+$primary: rgb(177, 177, 255);
+$success: #e1895d;
+$danger: rgb(36, 36, 85);
+// .img{
+//     width: 300px;
+//     height: 300px;
+//   }
+  .shop-button{
+    // width: 40px;
+    // height: 40px;
+    align-items: center;
+    
+    background-color: #e1895d;
+    display: block;
+    margin-left: auto;
+    margin-top: -20px;
+    position: relative;
+    margin-right: 15px;
+    transition: 300ms;
+}
+.feature-tab{
+  .nav-link{
+    padding: 1rem 3rem;
+  }
+}
+.shop{
+  .btn{
+    padding: 1rem;
+  }
+}
+.pd{
+  padding-bottom: 150px;
+}
+.py{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+// .air{
+//     margin-right: 10px;
+// }
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
